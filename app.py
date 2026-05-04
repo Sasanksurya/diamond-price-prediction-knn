@@ -1,9 +1,6 @@
 import streamlit as st
-import pickle
-import pandas as pd
-
-# Load model
 import joblib
+import pandas as pd
 
 model = joblib.load("model.pkl")
 
