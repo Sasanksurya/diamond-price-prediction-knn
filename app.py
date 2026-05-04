@@ -20,8 +20,8 @@ clarity = st.selectbox("Clarity", ["I1","SI2","SI1","VS2","VS1","VVS2","VVS1","I
 
 # Predict
 if st.button("Predict"):
-    input_df = pd.DataFrame([[carat, cut, color, clarity, depth, table, x, y, z]],
-        columns=["carat","cut","color","clarity","depth","table","x","y","z"])
+    input_data = pd.DataFrame([[carat, depth, table, x, y, z]],
+                          columns=['carat','depth','table','x','y','z'])
     
     prediction = model.predict(input_df)
     st.success(f"Predicted Price: ${prediction[0]:.2f}")
