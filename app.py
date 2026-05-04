@@ -3,7 +3,9 @@ import pickle
 import pandas as pd
 
 # Load model
-model = pickle.load(open("model.pkl", "rb"))
+import joblib
+
+model = joblib.load("model.pkl")
 
 st.title("💎 Diamond Price Prediction")
 
