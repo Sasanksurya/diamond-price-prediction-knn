@@ -1,39 +1,36 @@
-# 💎 Diamond Price Prediction (KNN)
+# 💎 Diamond Price Prediction
 
-## 📌 Overview
+## 📌 Project Overview
+This project predicts diamond prices using machine learning (KNN Regression) based on features like carat, cut, color, clarity, and dimensions.
 
-This project predicts diamond prices using a K-Nearest Neighbors (KNN) regression model.
-It includes data preprocessing, model training, evaluation, and a Streamlit web app.
+## 🚀 Live App
+https://diamond-price-prediction-knn-m2f67dncb2vdiwwaapppp3s.streamlit.app/
 
-## 📂 Files
+## 🧠 Model
+- Algorithm: KNN Regressor
+- Pipeline: Scaling + Encoding + Model
+- Evaluation Metrics:
+  - MAE: ...
+  - RMSE: ...
+  - R² Score: ...
 
-* `Diamond Price Prediction using KNN and Streamlit Deployment.ipynb` – training notebook
-* `diamonds.csv` – dataset
-* `model.pkl` – trained pipeline (preprocessing + model)
-* `app.py` – Streamlit app
-* `requirements.txt` – dependencies
+## ⚙️ Features Used
+- carat
+- depth
+- table
+- x, y, z
+- cut, color, clarity
 
-## ⚙️ Model
+## 📊 Tech Stack
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Streamlit
 
-* Algorithm: KNN Regressor
-* Preprocessing: OneHotEncoding + StandardScaler (via Pipeline)
-* Metrics:
+## 📷 App Screenshot
+(Add screenshot here)
 
-  * MAE ≈ 408
-  * RMSE ≈ 785
-  * R² ≈ 0.96
-
-## ▶️ Run Locally
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-## 🌐 Deployment
-
-Deployed using Streamlit Cloud (link will be added).
-
-## 👤 Author
-
-Sasank Surya
+## 💡 Key Learnings
+- Pipeline usage
+- Model deployment
+- Debugging version issues
