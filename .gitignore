@@ -8,8 +8,8 @@ __pycache__/
 # VS Code
 .vscode/
 
-# Model files
-*.pkl
+
+
 
 # OS files
 .DS_Store
